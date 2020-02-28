@@ -10,13 +10,13 @@
 
 - 同样，在该页面也能找到相应的文档进行下载。
 
-![jdk安装01](./images/JDK安装01.png)
+![jdk安装01](../images/JDK安装01.png)
 
 #### 英文官网
 
 **官方网址**（英文版）：[https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
 
-![JDK安装02](/JDK安装02.png)
+![JDK安装02](../images/JDK安装02.png)
 
 ## 二、安装
 
@@ -34,7 +34,7 @@
 
 3. 以下操作均在`系统变量(s)`选项下操作，如下图所示：
 
-   ![JDK安装03](/JDK安装03.png)
+   ![JDK安装03](../images/JDK安装03.png)
 
 4. 新建环境变量 JAVA_HOME：
 

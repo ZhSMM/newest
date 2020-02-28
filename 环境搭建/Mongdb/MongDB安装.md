@@ -1,7 +1,3 @@
----
-typora-root-url: ..\images
----
-
 # MongDB安装
 
 ## 下载
@@ -18,19 +14,19 @@ typora-root-url: ..\images
 
 选择“Custom”安装方式，然后Next；
 
-![MongoDB安装1](/MongoDB安装1.png)
+![MongoDB安装1](../images/MongoDB安装1.png)
 
 #### 调整安装路径
 
 点击Browser，选择安装目录，根据需要自行选择；
 
-![Mongdb安装2](/MongoDB安装2.png)
+![Mongdb安装2](../images/MongoDB安装2.png)
 
 #### 注意页面
 
 去掉左下角“Install MongoDB Compass”的勾选，然后Next；（不去掉的话会在安装过程中停顿特别久）
 
-![mongdb安装3](/MongoDB安装3.png)
+![mongdb安装3](../images/MongoDB安装3.png)
 
 ## 配置MongoDB
 
@@ -44,10 +40,10 @@ typora-root-url: ..\images
 
 启动成功后在浏览器输入网址：http://localhost:27017/ 即可看到如下输出：
 
-![访问输出](/访问输出.png)
+![访问输出](../images/访问输出.png)
 
 #### 客户端连接
 
 启动mongoDB服务后，在MongDB\data目录进入cmd，然后输入以下命令：`mongo -port 27017`连接mongo（端口号不指定默认27017），进入MongoDB Enterprise模式。
 
-![命令行](/MongoDB命令行模式.png)
+![命令行](../images/MongoDB命令行模式.png)

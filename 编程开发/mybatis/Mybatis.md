@@ -1,7 +1,3 @@
----
-typora-root-url: ..\images\mybatis
----
-
 # Mybatis
 
 ## 简介
@@ -40,7 +36,7 @@ MyBatis是一个优秀的持久层框架，它对JDBC的操作数据库的过程
 
 #### MyBatis工作流程
 
-![工作流程](mybatis1.png)
+![工作流程](../images/mybatis/mybatis1.png)
 
 1. 读取MyBatis的配置文件。mybatis-config.xml为MyBatis的全局配置文件，用于配置数据库连接信息。
 2. 加载映射文件。映射文件即SQL映射文件，该文件中配置了操作数据库的SQL语句，需要在MyBatis配置文件mybatis-config.xml中加载。mybatis-config.xml 文件可以加载多个映射文件，每个文件对应数据库中的一张表。

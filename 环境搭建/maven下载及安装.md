@@ -1,7 +1,3 @@
----
-typora-root-url: images
----
-
 # maven下载及安装
 
 ## 一、下载
@@ -10,7 +6,7 @@ typora-root-url: images
 
 进入页面后选择如下安装包：apach-maven-*.zip;
 
-![图1](/图1.png)
+<img src="./images/图1.png"/>
 
 ## 二、安装及配置
 
@@ -52,5 +48,5 @@ typora-root-url: images
 
 在命令行输入`mvn help:system`，输出一大堆下载后显示如下界面即成功：
 
-![设置](图7.png)
+![设置](./images/图7.png)
 

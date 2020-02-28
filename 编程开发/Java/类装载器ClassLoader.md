@@ -1,7 +1,3 @@
----
-typora-root-url: images
----
-
 # 类装载器ClassLoader
 
 ## 类的生命周期
@@ -183,7 +179,7 @@ JVM装载类时使用“全盘负责委托机制”：
 
 除JVM默认的三个ClassLoader以外，可以编写自己的第三方类装载器，以实现一些特殊的需求。类文件被装载并解析后，在JVM内将拥有一个对应的java.lang.Class类描述对象，该类的实例都拥有指向这个类描述对象的引用，而类描述对象又拥有指向关联ClassLoader的引用，如图所示。
 
-![ClassLoader](/ClassLoader.png)
+![ClassLoader](./images/ClassLoader.png)
 
 每一个类在JVM中都拥有一个对应的java.lang.Class对象，它提供了类结构信息的描述。数组、枚举、注解以及基本Java类型（如int、double等），甚至void都拥有对应的Class对象。Class没有public的构造方法。Class对象是在装载类时由JVM通过调用类装载器中的defineClass()方法自动构造的。
 

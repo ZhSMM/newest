@@ -1,7 +1,3 @@
----
-typora-root-url: ..\images
----
-
 # MyBatis使用
 
 ## 一、概述
@@ -23,7 +19,7 @@ Jdbc的局限性：
 
 ORM的全称（Object Relational Mapping），即对象-关系映射。ORM是一种规范，将简单的Java对象（POJO）和数据库表记录进行映射，使数据库表中的记录和POJO一一对应。
 
-![ORM映射](/mybatis/ORM映射.png)
+![ORM映射](../images/mybatis/ORM映射.png)
 
 #### ORM框架
 
@@ -35,11 +31,11 @@ MyBatis支持自定义SQL、存储过程以及高级映射，避免了几乎所�
 
 架构图：
 
-![MyBatis架构图](/mybatis/MyBatis架构图.png)
+![MyBatis架构图](../images/mybatis/MyBatis架构图.png)
 
 ### MyBatis工作流程
 
-![MyBatis工作流程](/mybatis/MyBatis工作流程.png)
+![MyBatis工作流程](../images/mybatis/MyBatis工作流程.png)
 
 1. MyBatis读取配置文件和映射文件。其中，配置文件设置了数据源、事务等信息；映射文件设置了SQL执行相关的信息。映射文件要引入到配置文件中才能被执行。
 2. MyBatis根据配置信息和映射信息生成SqlSessionFactory对象，SqlSessionFactory对象的重要功能是创建MyBatis的核心类对象SqlSession。
@@ -75,7 +71,7 @@ SqlSessionFactory build(Configuration config);
 
 通过openSession()方法创建SqlSession对象，具体形式：
 
-![openSession构造函数](/mybatis/openSession构造函数.png)
+![openSession构造函数](../images/mybatis/openSession构造函数.png)
 
 #### SqlSession
 
@@ -90,9 +86,9 @@ SqlSession对象是MyBatis中的核心类对象，类似JDBC的Connection对象�
 
 ##### 对象方法
 
-![SqlSession方法](/mybatis/SqlSession方法.png)
+![SqlSession方法](../images/mybatis/SqlSession方法.png)
 
-![SqlSession方法](/mybatis/SqlSession方法1.png)
+![SqlSession方法](../images/mybatis/SqlSession方法1.png)
 
 ### 下载使用
 
