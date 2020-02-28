@@ -1,7 +1,3 @@
----
-typora-root-url: ..\images
----
-
 # Java JDK安装
 
 ## 一、下载
@@ -14,7 +10,7 @@ typora-root-url: ..\images
 
 - 同样，在该页面也能找到相应的文档进行下载。
 
-![jdk安装01](/JDK安装01.png)
+![jdk安装01](/images/JDK安装01.png)
 
 #### 英文官网
 
